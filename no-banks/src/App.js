@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Withdrawal from './pages/Withdrawal/Withdrawal';
 import Balance from './pages/Balance/Balance';
 import Deposit from './pages/Deposit/Deposit';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Header />
      <Router>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/Withdrawal" element={<Withdrawal />} />
         <Route path="/Balance" element={<Balance />} />
         <Route path="/Deposit" element={<Deposit />} />

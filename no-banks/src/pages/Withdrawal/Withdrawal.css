@@ -10,7 +10,7 @@ input {
     height: 50px
 }
 
-button {
+.deposit-button {
     width: 70px;
     height: 56px;
     margin-left: 15px;

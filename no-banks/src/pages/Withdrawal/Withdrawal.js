@@ -1,3 +1,4 @@
+import { Button } from "reactstrap";
 import "./Withdrawal.css"
 
 const Withdrawal = () => {
@@ -11,7 +12,7 @@ const Withdrawal = () => {
             min="3"
             max="100"
           />
-          <button>Sacar</button>
+          <Button className="deposit-button">Sacar</Button>
         </p>
       </div>
     </div>

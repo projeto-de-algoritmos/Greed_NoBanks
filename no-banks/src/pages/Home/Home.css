@@ -1,0 +1,24 @@
+.home {
+    width: 100%;
+  }
+
+.home-button {
+    margin-top: 80px;
+    width: 660px;
+    height: 200px;
+    font-size: 2em;
+    border-radius: .5em;
+    border-style: double 1px;
+    border-color: black;
+   
+}
+
+.right-card {
+    margin-left: 2em;
+}
+
+.row {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
