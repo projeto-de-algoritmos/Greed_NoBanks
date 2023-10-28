@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <div>
-            <header className="header">
+            <header className="header bg">
                 <p style={{ fontSize: "90px" }}>
                     No Banks.
                 </p>

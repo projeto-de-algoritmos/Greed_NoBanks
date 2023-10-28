@@ -1,8 +1,39 @@
   .header {
       font-family: "Roboto", sans-serif;
-      background-color: #0c000e;
+      background-color: #25002c;
       display: flex;
       padding-left: 10%;
       justify-content: flex-start;
       color: rgb(218, 218, 218);
+  }
+
+  .bg {
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, #25002c 0%, #25002c 25%, #25002c 51%, #20023b 100%);
+    -webkit-animation: AnimateBG 10s ease infinite;
+            animation: AnimateBG 10s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
