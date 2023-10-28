@@ -9,7 +9,7 @@
 
   .bg {
     background-size: 300% 300%;
-    background-image: linear-gradient(-45deg, #25002c 0%, #25002c 25%, #25002c 51%, #20023b 100%);
+    background-image: linear-gradient(-45deg, #25002c 0%, #25002c 25%, #25002c 51%, #3a0469 100%);
     -webkit-animation: AnimateBG 10s ease infinite;
             animation: AnimateBG 10s ease infinite;
   }

@@ -1,13 +1,14 @@
 .withdrawal {
     height: 100%;
-    display: flex;
-    position: relative;
+    width: 100%;  
     justify-content: center;
+    margin-top: 3em;
 }
 
-input {
-    width: 1000px;
-    height: 50px
+.withdrawal-input{
+    margin: 3em 25em auto 25em;
+    justify-content: center;
+ 
 }
 
 .deposit-button {
