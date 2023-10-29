@@ -1,4 +1,8 @@
-# NoBanks
+<h1 align="center">🏦 NoBanks.</h1>
+
+<p align="center">
+    <img src="./no-banks/public/assets/NoBanks_logo.png">
+</p>
 
 **Conteúdo da Disciplina**: Algoritmos Ambiciosos<br>
 
@@ -9,23 +13,37 @@
 | 190025581 | [Bruno Oliveira Lima](https://github.com/eng-Bruno) |
 | xx/xxxxxx |                   xxxx xxxx xxxxx                   |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## 📄 Sobre 
+O NoBanks é um software que funciona como uma simulação de um caixa eletrônico, onde sua principal funcionalidade está no saque. O NoBanks realiza um saque desejado pelo cliente e utiliza o algoritmo para retornar a menor quantidade possível de cédulas.
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+## 📷 Screenshots
 
-## Instalação 
+![NoBaks1](/no-banks/public/assets/NoBanks1.png)
+![NoBaks2](/no-banks/public/assets/NoBanks2.png)
+![NoBaks3](/no-banks/public/assets/NoBanks3.png)
+![NoBaks4](/no-banks/public/assets/NoBanks4.png)
+
+## ⚙️ Instalação 
 **Linguagem**: JavaScript<br>
-**Framework**: (caso exista)<br>
+**Framework**: React<br>
 
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+## 💻 Pré-requisitos
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+`<Node/ v16 lts> <NPM/ v7.10.0>`  ou superior.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## 💻 Uso 
+Após clonar o repositório, utilize os seguintes comandos:
+<br>
+
+```cd no-banks```
+
+<br>
+
+```npm install``` 
+
+<br>
+
+```npm start```
 
 
 
