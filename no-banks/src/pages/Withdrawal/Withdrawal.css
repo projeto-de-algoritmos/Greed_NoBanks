@@ -6,13 +6,13 @@
 }
 
 .withdrawal-input{
-    margin: 3em 25em auto 25em;
+    margin: 3em 40em auto 40em;
     justify-content: center;
  
 }
 
 .deposit-button {
-    width: 70px;
+    width: 100px;
     height: 56px;
     margin-left: 15px;
 }

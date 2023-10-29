@@ -8,41 +8,28 @@ const Home = () => {
 
         <div className="home">
             <Row>
-                <Col md='4'>
-                    <Card className="left-card">
-                        <CardBody>
-                        <form action="/Withdrawal" method="get">
-                            <button className="home-button" formAction="/Withdrawal">SACAR</button>
-                        </form>
-                        </CardBody>
-                    </Card>
-                    
+                <Col>
+                    <form action="/Withdrawal" method="get">
+                        <button className="home-button" formAction="/Withdrawal">SACAR</button>
+                    </form>
                 </Col>
-                <Col md='4'>
-                    <Card className="right-card">
-                        <CardBody>
-                        <form action="/Balance" method="get">
-                            <button className="home-button" formAction="/Balance">CONSULTAR CONTA</button>
-                        </form>
-                        </CardBody>
-                    </Card>
+                <Col>
+                    <form action="/Balance" method="get">
+                        <button className="home-button" formAction="/Balance" disabled>CONSULTAR SALDO</button>
+                    </form>
                 </Col>
             </Row>
             <br />
             <Row>
-                <Col md="4">
-                    <Card className="left-card">
+                <Col>
                     <form action="/Deposit" method="get">
-                            <button className="home-button" formAction="/Deposit">DEPOSITAR</button>
-                        </form>
-                    </Card>
+                        <button className="home-button" formAction="/Deposit" disabled>DEPOSITAR</button>
+                    </form>
                 </Col>
-                <Col md='4'>
-                    <Card className="right-card">
-                        <form action="https://github.com/eng-Bruno" method="get" target="_blank">
-                            <button className="home-button" formAction="https://github.com/eng-Bruno">INFORMAÇÕES DA CONTA</button>
-                        </form>
-                    </Card>
+                <Col>
+                    <form action="https://github.com/eng-Bruno" method="get" target="_blank">
+                        <button className="home-button" formAction="https://github.com/eng-Bruno">INFORMAÇÕES DA CONTA</button>
+                    </form>
                 </Col>
             </Row>
 

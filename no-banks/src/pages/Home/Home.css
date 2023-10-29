@@ -3,7 +3,7 @@
   }
 
 .home-button {
-    margin-top: 100px;
+    margin-top: 4.5em;
     width: 660px;
     height: 150px;
     font-size: 2em;
@@ -13,12 +13,9 @@
    
 }
 
-.right-card {
-    margin-left: 2em;
-}
 
 .row {
     display: flex;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 230px;
+    margin-right: 230px;
 }
