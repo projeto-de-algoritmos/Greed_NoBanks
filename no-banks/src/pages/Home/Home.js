@@ -15,7 +15,7 @@ const Home = () => {
                 </Col>
                 <Col>
                     <form action="/Balance" method="get">
-                        <button className="home-button" formAction="/Balance" disabled>CONSULTAR SALDO</button>
+                        <button className="home-button" formAction="/Balance">CONSULTAR CONTA</button>
                     </form>
                 </Col>
             </Row>
@@ -28,7 +28,7 @@ const Home = () => {
                 </Col>
                 <Col>
                     <form action="https://github.com/eng-Bruno" method="get" target="_blank">
-                        <button className="home-button" formAction="https://github.com/eng-Bruno">INFORMAÇÕES DA CONTA</button>
+                        <button className="home-button" formAction="https://github.com/eng-Bruno">TRANSFERÊNCIA</button>
                     </form>
                 </Col>
             </Row>
