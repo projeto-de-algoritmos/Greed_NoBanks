@@ -6,8 +6,7 @@ import { data } from "../../utils/Data";
 
 
 function SacarComSaldo(saldo, saque) {
-  const cedulasDisponiveis = [1, 2, 5, 10, 20, 50, 100, 200];
-  cedulasDisponiveis.sort((a, b) => b - a);
+  const cedulasDisponiveis = [200, 100, 50, 20, 10, 5, 2, 1];
 
   const resultado = {};
   let saqueRestante = saque;
