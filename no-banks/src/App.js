@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Withdrawal" element={<Withdrawal />} />
         <Route path="/Balance" element={<Balance />} />
-        <Route path="/Deposit" element={<Deposit />} />
+        {/*<Route path="/Deposit" element={<Deposit />} />*/}
       </Routes>
     </Router>
     </div>
