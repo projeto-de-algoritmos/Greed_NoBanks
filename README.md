@@ -45,6 +45,10 @@ Após clonar o repositório, utilize os seguintes comandos:
 
 ```npm start```
 
+## Apresentação
+
+[No Banks. - Greed](./apresentação/apresentacao_NoBanks.zip) - presente no repositório
+
 
 
 
